@@ -12,7 +12,7 @@ spec:
       description: The repo url
     - name: output-image
       description: reference of the image that will get created
-      default: quay.io/janus-demo-video/backstage-test
+      default: quay.io/janus-demo-video/backstage-test/embedded
   resourcetemplates:
     - apiVersion: tekton.dev/v1beta1
       kind: PipelineRun
