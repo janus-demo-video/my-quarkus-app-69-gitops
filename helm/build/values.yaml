@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-69
+  namespace: my-quarkus-app-69-dev
+  cluster: .apps.cluster-6r94h.6r94h.sandbox726.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/my-quarkus-app-69
+  org: janus-demo-video
+  name: my-quarkus-app-69
+
+image:
+  host: quay.io/janus-demo-video/backstage-test
+  name: my-quarkus-app-69
+  tag: latest
